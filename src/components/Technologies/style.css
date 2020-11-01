@@ -1,0 +1,61 @@
+.technologycontainer{
+    /* height: 800px; */
+    width:50%;
+}
+
+.container-outer{
+    margin:100px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* tech item container */
+.techview{ 
+    display: flex;
+    /* flex-direction:"row"; */
+    /* width:"80%"; */
+    flex-wrap: wrap;
+    margin:0 10%;
+    justify-content: space-between;
+    
+}
+.techitem{
+    width: 250px;
+    height: 100px;
+    
+    align-self: center;
+}
+.container-outer{
+    display: flex;   
+}
+.aboutme {
+    width:50%;
+    background-color:"red";
+}
+.clipimage{
+    clip-path: ellipse(45% 50% at 50% 50%);
+    width:200px;
+    height:200px;
+}
+.aboutme-row{
+    display: flex;
+    flex-direction: column;
+    /* width:80%; */
+    /* margin:0 10%; */
+}
+
+.aboutme-image-container{
+    width:100%;
+}
+.aboutme-text{
+    width:100%;
+    margin-top:40px;
+    align-self: center;
+}
+.aboutme-text p{
+    width: 100%;
+  
+}

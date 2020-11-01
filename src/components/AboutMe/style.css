@@ -1,0 +1,26 @@
+.aboutme {
+    width:50%;
+    background-color:"red";
+}
+.clipimage{
+    clip-path: ellipse(45% 50% at 50% 50%);
+    width:200px;
+    height:200px;
+}
+.aboutme-row{
+    display: flex;
+    /* width:80%; */
+    /* margin:0 10%; */
+}
+
+.aboutme-image-container{
+    width:50%;
+}
+.aboutme-text{
+    width:50%;
+    align-self: center;
+}
+.aboutme-text p{
+    width: 60%;
+  
+}
