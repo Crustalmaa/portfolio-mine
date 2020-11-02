@@ -50,7 +50,7 @@ const Technologies=(props)=>{
         let rect = elem.getBoundingClientRect(); 
         var top = rect.top;
         var bottom = rect.bottom;
-        console.log("top ", top, " y ", bottom, rect)
+        //console.log("top ", top, " y ", bottom, rect)
         if(props.scrollposition>= top){
             props.setActive("aboutme")
         }
@@ -61,7 +61,7 @@ const Technologies=(props)=>{
             <div className="headerTitleImage">
                 <h1>About Me</h1>
             </div>
-            <div style={{display:"flex"}}>
+            <div className="container-row">
             <div  className="aboutme">
                 <div className="aboutme-row">
                     <div className="aboutme-image-container">

@@ -37,7 +37,7 @@ function App() {
 
 
     prevScrollY.current = currentScrollY;
-    console.log(goingUp, currentScrollY);
+    //console.log(goingUp, currentScrollY);
     setScrollPosition(prevScrollY.current)
   };
   return (

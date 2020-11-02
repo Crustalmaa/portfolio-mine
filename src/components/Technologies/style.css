@@ -59,3 +59,32 @@
     width: 100%;
   
 }
+.container-row{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width:1600px){
+    .techitem{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .container-row{
+      flex-direction: column;
+    }
+    .aboutme{
+        width:100%;
+    }
+    .technologycontainer{
+        width:100%;
+        margin-top:50px;
+    }
+    .techitem{
+        width:50%;
+    }
+  }
+@media only screen and (max-width:500px){
+    .techitem{
+        width:100%;
+    }
+}

@@ -7,7 +7,6 @@ const MainSection=(props)=>{
         let rect = elem.getBoundingClientRect(); 
         var top = rect.top;
         var bottom = rect.bottom;
-        //console.log("rect ", rect)
         if(props.scrollposition>= top){
             props.setActive("home")
         }
